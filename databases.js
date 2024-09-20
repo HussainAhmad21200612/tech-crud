@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/usercrudapp").then(()=>{
+mongoose.connect("mongodb+srv://hussain109164:21200612@cluster0.ozbkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("connetion succesfulll");
 }).catch((e)=>{
     console.log(e);
